@@ -12,7 +12,6 @@ jobs:
             - uses: actions/checkout@v2
 
             - name: Zip Files
-              working-directory: ./
               run: zip -r ./module.zip ./*
 
             - name: Get version
