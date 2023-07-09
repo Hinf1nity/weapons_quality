@@ -11,5 +11,8 @@
     "compatibility": {
       "minimum": "10",
       "verified": "11"
-    }
+    },
+    "esmodules": [
+        "scripts/roller.js"
+      ]
   }
